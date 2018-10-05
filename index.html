@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Guess Game Homework 3 Challenging</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <style>
+        .lead {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h5 {
+            font-family: 'Chakra Petch', sans-serif;
+        }
+</style>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <img src="assets/images/sushi_title.png" alt="hangman title image" id="title">
+            <p class="lead">A JavaScript game for sushi lovers!</p>
+        </div>
+    </div>
+
+    <div id="game-container" class="container">
+        <div class="row">
+            
+            <div class="col-md-8">
+
+                <p id="press"> <--Press any key to get started!--> </p>
+                <h5>Guess this sushi related word:</h5>
+                <p><span id="word-update"> </span></p>
+                <br>
+                <p>Number of guesses remaining:<span id="guessesremaining-update"> 7 </span></p>
+                <p>Incorrect letters guessed:<span id="incorrect-update"> </span></p>
+                <p>Wins:<span id="wins-update"> 0 </span></p>
+                <p>Losses:<span id="losses-update"> 0 </span></p>
+            </div>
+            
+            <div class="col-md-4">
+                <img src="assets/images/sushi_image.jpg" alt="sushi side image" class="img-fluid">
+            </div>
+
+    </div>
+</html>
